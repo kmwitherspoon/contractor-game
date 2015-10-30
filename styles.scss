@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Komika;
+  src: url('KOMTIT__.ttf');
+}
+
+html {
+  background-image: url('black-white-city.jpg');
+  background-size: cover;
+  font-family: Komika;
+}
+
+h1 {
+  color: yellow;
+  font-size: 30px;
+  background-color: black;
+  text-align: center;
+}
+
+h2 {
+  color: yellow;
+  font-size: 30px;
+  background-color: black;
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+}
+
+.fighters {
+  display: inline-block;
+  margin-bottom: 0;
+  img {
+    float: left;
+    margin-right: 300px;
+    padding-bottom: 400px;
+  }
+}
+
+.enemies {
+  display: inline-block;
+  margin-bottom: 0;
+  img{
+  float: right;
+  padding-bottom: 400px
+  }
+}
+
+.fighting {
+  a{
+      text-decoration: none;
+    .attackbtn, .gamebtn {
+      border-radius: 10px;
+      color: yellow;
+      font-size: 50px;
+      background-color: black;
+      text-align: center;
+      width: 200px;
+      height: 100px;
+      border-color: yellow;
+      font-family: Komika;
+      display: none;
+      margin-left: 500px;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.resultsbtn {
+  border-radius: 10px;
+  color: yellow;
+  font-size: 50px;
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border-color: yellow;
+  font-family: Komika;
+  display: none;
+  margin-left: 450px;
+  margin-bottom: 100px;
+}
+
+
+.answers {
+  display: none;
+}
+
+.actions {
+  width: 400px;
+  height: 400px;
+  margin-left: 400px;
+  display: none;
+}
