@@ -74,4 +74,5 @@ h2 {
   width: 400px;
   height: 400px;
   margin-left: 400px;
-  display: none; }
+  display: none;
+  border-radius: 10px; }
